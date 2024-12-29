@@ -16,7 +16,7 @@ flower.pos = (200, 400)
 isGameOver = False
 
 def flowerPos():
-    flower.pos = (random.randint(50, 400), random.randint(50, 400))
+    flower.pos = (random.randint(50, 750), random.randint(50, 400))
 
 def update():
     global score
